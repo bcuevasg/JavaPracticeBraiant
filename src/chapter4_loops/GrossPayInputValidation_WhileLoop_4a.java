@@ -1,4 +1,4 @@
-package chapter4_refactor;
+package chapter4_loops;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Each store employee makes $ 15 an hour. Write a program that allows the employee
  * to enter the number of hours worked for the week. Do not allow overtime.
  */
-public class GrossPayInputValidation_WhileLoop {
+public class GrossPayInputValidation_WhileLoop_4a {
     public static void main(String[] args) {
         //Initializa known variables
         int rate = 15;

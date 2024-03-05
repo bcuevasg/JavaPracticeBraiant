@@ -2,7 +2,7 @@ package chapter3_if_else_switch;
 
 import java.util.Scanner;
 
-public class GradeMessage_Switch {
+public class GradeMessage_Switch_3e {
     public static void main(String[] args) {
         System.out.println("Enter your letter grade ");
         Scanner scanner = new Scanner(System.in);

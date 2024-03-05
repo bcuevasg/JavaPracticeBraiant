@@ -1,4 +1,4 @@
-package chapter4_refactor;
+package chapter4_loops;
 
 import java.util.Random;
 

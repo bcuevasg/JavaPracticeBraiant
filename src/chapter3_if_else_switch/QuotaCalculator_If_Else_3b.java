@@ -8,7 +8,7 @@ import java.util.Scanner;
  * For those who do, they receive a congratulatory message.
  * For those who don't, they are informed of how many sales they were short.
  */
-public class QuotaCalculator_If_Else {
+public class QuotaCalculator_If_Else_3b {
     public static void main(String[] args) {
         //Initialize Values we know
         int quota = 10;

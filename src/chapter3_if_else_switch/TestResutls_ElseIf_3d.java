@@ -2,7 +2,7 @@ package chapter3_if_else_switch;
 
 import java.util.Scanner;
 
-public class TestResutls_ElseIf {
+public class TestResutls_ElseIf_3d {
     public static void main(String[] args) {
         //Get the test score from user
         System.out.println("Enter your test score:");

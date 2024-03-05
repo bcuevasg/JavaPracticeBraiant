@@ -6,8 +6,11 @@ import java.util.Scanner;
 * Logical Operators
 * To Qualify for a loan, a person must make at least $30,000 a year
 * and have been working at their current job for at least 2 years
+* && AND
+* || OR
+* ! Not
 */
-public class LogialOperator_LoanQualifier {
+public class LogialOperator_LoanQualifier_3f {
     public static void main(String[] args) {
         //Initialize what we know
         int requiredSalary = 30000;

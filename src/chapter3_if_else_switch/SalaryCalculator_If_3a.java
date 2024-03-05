@@ -7,7 +7,7 @@ All sales people get a payment of $1000 a week
 Salespeople who exceeded 10 sales get an additional bonus of $250
  */
 
-public class SalaryCalculator_If {
+public class SalaryCalculator_If_3a {
     public static void main(String args[]){
         //Initialize Known value
         int weekSalary = 1000;

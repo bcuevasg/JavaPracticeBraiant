@@ -7,7 +7,7 @@ import java.util.Scanner;
 * To Qualify for a loan, a person must make at least $30,000 a year
 * and have been working at their current job for at least 2 years
 */
-public class LoanQualifier_NestedIfs {
+public class LoanQualifier_NestedIfs_3c {
     public static void main(String[] args) {
         //Initialize what we know
         int requiredSalary = 30000;

@@ -8,7 +8,7 @@ import java.util.Scanner;
  * anyone who makes ore than $25,000 and has a credit score
  * of 700 or better. Reject all others.
  */
-public class InstantCreditCheck_VariableScope {
+public class InstantCreditCheck_VariableScope_5b {
     //Initialize what we know
     static int requireSalary = 25000;
     static int requiredCreditScore = 700;

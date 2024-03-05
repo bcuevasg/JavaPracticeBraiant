@@ -1,4 +1,4 @@
-package chapter4_refactor;
+package chapter4_loops;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * NESTED LOOPS:
  * Find the average of each student's test scores
  */
-public class AverageTestScores_NestedLoop {
+public class AverageTestScores_NestedLoop_4d {
 
     public static void main(String args[]) {
 

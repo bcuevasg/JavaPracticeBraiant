@@ -1,4 +1,4 @@
-package chapter4_refactor;
+package chapter4_loops;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * and then sums up the two numbers.The user should be able to
  * repeat this action until they indicate they are done.
  */
-public class AddNumbers_DoWhile {
+public class AddNumbers_DoWhile_4b {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean again;

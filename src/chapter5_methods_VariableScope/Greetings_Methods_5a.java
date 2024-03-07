@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5_methods_VariableScope;
 
 import java.util.Scanner;
 
@@ -13,6 +13,8 @@ public class Greetings_Methods_5a {
         String name = scanner.next();
 
         greetUser(name);
+
+
     }
 
     public static void greetUser(String name){

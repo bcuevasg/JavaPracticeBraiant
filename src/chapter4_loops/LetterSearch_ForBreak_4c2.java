@@ -6,7 +6,7 @@ import java.util.Scanner;
  * LOOP BREAK
  *  Search a String to determine if it contains the letter 'A'.
  */
-public class LetterSearch_ForBreak {
+public class LetterSearch_ForBreak_4c2 {
     public static void main(String[] args) {
         //Get Text
         System.out.println("Enter Some text:");

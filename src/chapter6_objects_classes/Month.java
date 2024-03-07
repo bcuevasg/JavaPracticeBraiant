@@ -1,4 +1,4 @@
-package chapter6;
+package chapter6_objects_classes;
 
 public class Month {
     public static String getMonth(int month){

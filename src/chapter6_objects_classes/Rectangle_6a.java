@@ -1,16 +1,18 @@
-package chapter6;
+package chapter6_objects_classes;
 
-public class Rectangle {
+public class Rectangle_6a {
     private double lenght;
     private double width;
 
     // used when we dont know the values of the rectangle
-    public Rectangle(){
+    public Rectangle_6a(){
         lenght = 0;
         width = 0;
     }
     //Bellow is used when we know the values for the rectangle
-    public Rectangle(double lenght, double width){
+
+    //This is the constructor for the Rectangle
+    public Rectangle_6a(double lenght, double width){
         this.lenght = lenght; //can be set this way
         setWidth(width);// or can be set this way.
     }

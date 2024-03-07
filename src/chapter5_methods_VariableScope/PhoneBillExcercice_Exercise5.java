@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5_methods_VariableScope;
 
 import java.util.Scanner;
 

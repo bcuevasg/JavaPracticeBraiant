@@ -22,6 +22,7 @@ public class AddNumbers_DoWhile_4b {
             double sum = num1 + num2;
             System.out.println("The sum of the 2 numbers is: " + sum);
             System.out.println("Would you like to run this again? true or false");
+            //this will identify if we want to run the process once again
             again = scanner.nextBoolean();
         } while(again);
         scanner.close();

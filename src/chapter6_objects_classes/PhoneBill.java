@@ -1,4 +1,4 @@
-package chapter6;
+package chapter6_objects_classes;
 
 public class PhoneBill {
     private int id;

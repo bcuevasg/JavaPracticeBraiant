@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 // In this code we will make sure to create an Array with specific values created randomly
 // within the "generateNumbers" method
-public class LotteryTicket {
+public class LotteryTicketSearch_7b {
 
     public static final int LENGHT = 6;
     public static final int MAX_TICKET_NUMBER = 69;
@@ -19,11 +19,13 @@ public class LotteryTicket {
         for (int i = 0; i<LENGHT; i++){
             int randomNumber ;
 
-            // Generate random number the search to make sure it doesn't
-            // already exist in the array.If it does regenerate and search again.
+            /*
+             Generate random number the search to make sure it doesn't
+             already exist in the array.If it does regenerate and search again.
+             */
             do{
                randomNumber = randomValue.nextInt(MAX_TICKET_NUMBER) + 1;
-            }while(search(ticket, randomNumber));
+            }while(sequentialSearch(ticket, randomNumber));
             ticket[i] = randomNumber;
 
         }
@@ -36,9 +38,12 @@ public class LotteryTicket {
      * @param numberToSearchFor this is the value to search in the array
      * @return true if found, false if not
      */
-    public static boolean search(int[] array, int numberToSearchFor){
-        // This is called an enhanced loop.
-        // it iterates through 'array' and each time assigns the current element to 'value'
+    public static boolean sequentialSearch(int[] array, int numberToSearchFor){
+        /*
+        This is called an enhanced loop.
+        it iterates through 'array' and each time assigns
+        the current element to 'value'
+        */
         for(int value: array){
             if (value == numberToSearchFor){
                 return true;

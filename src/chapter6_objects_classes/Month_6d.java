@@ -1,6 +1,6 @@
 package chapter6_objects_classes;
 
-public class Month {
+public class Month_6d {
     public static String getMonth(int month){
         switch(month){
             case 1: return "January";

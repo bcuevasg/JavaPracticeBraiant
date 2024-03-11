@@ -26,21 +26,25 @@ public class Main {
 //        System.out.println(levelValue);
 //        String reformatMessage = arrLogLine[1].trim() + " " + levelValue2;
 //        System.out.println(reformatMessage);
-        String identifier = "My  Id";
-        char[] ch = identifier.toCharArray();
-        StringBuilder textChanged = new StringBuilder();
-        for(int i = 0; i<identifier.length();i++){
-             if(ch[i] == ' '){
-                 ch[i] = '_';
-                 textChanged.append(ch[i]);
-             }else {
-                 textChanged.append(ch[i]);
-             }
-        }
-        textChanged.toString();
-        System.out.println(textChanged);
 
 
+
+//        String identifier = "My  Id";
+//        char[] ch = identifier.toCharArray();
+//        StringBuilder textChanged = new StringBuilder();
+//        for(int i = 0; i<identifier.length();i++){
+//             if(ch[i] == ' '){
+//                 ch[i] = '_';
+//                 textChanged.append(ch[i]);
+//             }else {
+//                 textChanged.append(ch[i]);
+//             }
+//        }
+//        textChanged.toString();
+//        System.out.println(textChanged);
+
+    String variable = "avacado";
+        System.out.print("variable".split("a").length);
 
 
     }
